@@ -1,0 +1,10 @@
+.theme-toggle{display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:8px;padding:8px 10px;font-size:11px}
+.theme-toggle:hover{border-color:var(--lime);color:var(--lime)}
+.theme-toggle>span:first-child{font-size:15px;color:var(--lime)}
+.source-bar{display:flex;align-items:center;gap:10px;margin:-7px 0 20px;padding:12px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.source-bar>div{display:grid;gap:4px;flex:1;min-width:130px}.source-bar>div b{font-size:11px}.source-bar>div span{font-size:9px;color:var(--muted);line-height:1.5}.source-bar .solid-btn,.source-bar .outline-btn{width:auto;white-space:nowrap}.source-bar .solid-btn{padding:9px 12px}.source-bar .outline-btn{padding:8px 11px}
+.source-bar button:disabled{opacity:.6;cursor:wait}
+.cards-pager{display:flex;justify-content:center;align-items:center;gap:12px;margin:16px 0 4px}.cards-pager button{border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--text);padding:7px 11px;font-size:10px}.cards-pager button:disabled{opacity:.45;cursor:default}.cards-pager span{font:10px 'DM Mono',monospace;color:var(--muted)}
+.toolbar select:disabled{opacity:.55;cursor:not-allowed}
+@media(max-width:650px){.theme-toggle{padding:6px 8px}.theme-label{display:none}}
+@media(max-width:650px){.source-bar{display:grid;grid-template-columns:1fr 1fr}.source-bar>div{grid-column:1/-1}.source-bar #loadAllCards{grid-column:1/-1}.source-bar .solid-btn{font-size:9px;padding:9px 7px}.source-bar .outline-btn{font-size:9px;padding:8px 7px}}

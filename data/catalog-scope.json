@@ -1,0 +1,15 @@
+{
+  "source": "DigimonCard.io Public API",
+  "localized_details_and_images_source": "Heroicc JSON:API",
+  "load_strategy": "Fetch the full public card index at startup, keep all unique card numbers, report counts for the requested ranges, localize the visible page, and fetch individual details on demand.",
+  "included_card_number_ranges": [
+    {"group": "BT", "from": "BT10", "through": "BT26"},
+    {"group": "EX", "from": "EX01", "through": "EX13"},
+    {"group": "AD", "sets": ["AD01"]},
+    {"group": "ST", "from": "ST01", "through": "ST24"},
+    {"group": "P", "prefix": "P-"},
+    {"group": "LM", "prefix": "LM-"}
+  ],
+  "prices_included": false,
+  "local_copy_saved": false
+}

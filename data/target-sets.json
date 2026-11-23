@@ -1,0 +1,49 @@
+[
+  {
+    "set_code": "BT-27",
+    "product_name": "IGNITION OF X",
+    "product_type": "booster",
+    "release_date": "2026-12-05",
+    "card_types": 108,
+    "status": "api_records_below_official_type_count",
+    "api_returned_records": 104,
+    "source_checked_at": "2026-11-22",
+    "include_parallel_printings": true
+  },
+  {
+    "set_code": "EX-13",
+    "product_name": "CHIVALROUS XIII",
+    "product_type": "extra_booster",
+    "release_date": "2026-10-03",
+    "card_types": 81,
+    "status": "api_records_below_official_type_count",
+    "api_returned_records": 77,
+    "source_checked_at": "2026-11-22",
+    "include_parallel_printings": true
+  },
+  {
+    "set_code": "AD-01",
+    "product_name": "DIGIMON GENERATION",
+    "product_type": "advanced_booster",
+    "release_date": "2026-03-28",
+    "card_types": 199,
+    "status": "api_records_below_official_type_count",
+    "api_returned_records": 195,
+    "source_checked_at": "2026-11-22",
+    "include_parallel_printings": true,
+    "notes": "Contains new cards and reprints. Model the AD-01 printing separately from the original card printing."
+  },
+  {
+    "set_code": "ST-26",
+    "product_name": "DIGIMON ALYSION Yukinamon",
+    "product_type": "starter_deck",
+    "release_date": "2026-12-05",
+    "card_types": 17,
+    "physical_card_count": 54,
+    "status": "api_count_matches_official_types",
+    "api_returned_records": 17,
+    "source_checked_at": "2026-11-22",
+    "include_parallel_printings": true,
+    "notes": "Import the 17 starter-deck card types only. The BT-27 booster packs included in the product are not part of the ST-26 card list."
+  }
+]
