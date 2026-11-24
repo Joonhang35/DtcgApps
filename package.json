@@ -1,0 +1,14 @@
+{
+  "name": "dtcgapps-database-v2",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "import": "node scripts/import-heroicc.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run import && npm run validate"
+  }
+}
