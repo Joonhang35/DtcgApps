@@ -1,10 +1,10 @@
 
 import fs from "node:fs/promises";
 import path from "node:path";
+import { OUT } from "./lib.mjs";
 
-const ROOT = process.cwd();
-const INPUT = path.join(ROOT, "database", "v2", "images.json");
-const OUTPUT = path.join(ROOT, "database", "v2", "reports", "image-check-report.json");
+const INPUT = path.join(OUT, "images.json");
+const OUTPUT = path.join(OUT, "reports", "image-check-report.json");
 
 const CONCURRENCY = 10;
 const TIMEOUT = 15000;

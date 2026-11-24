@@ -3,7 +3,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 export const ROOT = process.cwd();
-export const OUT = path.join(ROOT, "database", "v2");
+export const OUT = path.join(ROOT, "v2");
 export const TMP = path.join(ROOT, ".tmp", "heroicc");
 
 export async function readJson(file) {

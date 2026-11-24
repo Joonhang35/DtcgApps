@@ -251,4 +251,4 @@ report.finishedAt = new Date().toISOString();
 report.outputCounts = manifest.counts;
 await writeJson(path.join(OUT, "reports", "import-report.json"), report);
 console.log("Import complete:", manifest.counts);
-console.log("Review database/v2/reports/import-report.json before committing.");
+console.log("Review v2/reports/import-report.json before committing.");
