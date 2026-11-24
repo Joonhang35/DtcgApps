@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedAt": "2026-11-24T11:05:12.766Z",
+  "source": "Heroicc bulk data",
+  "sourceDocs": "https://heroi.cc/docs/api",
+  "attribution": "Heroicc API; Digimon/Bandai card names and artwork remain their respective rights holders' property.",
+  "counts": {
+    "cards": 4287,
+    "variants": 26752,
+    "images": 26752
+  },
+  "languages": [
+    "en",
+    "ja",
+    "ko",
+    "zh-Hans"
+  ],
+  "sourceFiles": {
+    "en": {
+      "sourceName": "English Cards",
+      "sourceUpdatedAt": "2026-07-03",
+      "downloadUrl": "https://assets.heroi.cc/bulk-data/en-2026-07-03-013655.json",
+      "bytes": 25381271,
+      "sourceRecords": 7618,
+      "accepted": 7618,
+      "missingCardNumbers": 0,
+      "duplicateVariantIds": 0,
+      "imageUrlsFound": 7618,
+      "sha256": "280a532fbe8f16f23b255684faa40ef728179ef4817cbaef06eb2c53ce0c37fa"
+    },
+    "ja": {
+      "sourceName": "Japanese Cards",
+      "sourceUpdatedAt": "2026-07-03",
+      "downloadUrl": "https://assets.heroi.cc/bulk-data/ja-2026-07-03-013657.json",
+      "bytes": 32315504,
+      "sourceRecords": 7109,
+      "accepted": 7109,
+      "missingCardNumbers": 0,
+      "duplicateVariantIds": 0,
+      "imageUrlsFound": 7109,
+      "sha256": "fb567292c7fc13c2a8457d653f161df0bb740ef7d2fffee088727b2e48db035e"
+    },
+    "ko": {
+      "sourceName": "Korean Cards",
+      "sourceUpdatedAt": "2026-07-03",
+      "downloadUrl": "https://assets.heroi.cc/bulk-data/ko-2026-07-03-013658.json",
+      "bytes": 18701007,
+      "sourceRecords": 4874,
+      "accepted": 4874,
+      "missingCardNumbers": 0,
+      "duplicateVariantIds": 0,
+      "imageUrlsFound": 4874,
+      "sha256": "f3371c4963a9091b5c105318881b8a7375d24811c73f072b66d4a2a48d8f9447"
+    },
+    "zh-Hans": {
+      "sourceName": "Chinese (Simplified) Cards",
+      "sourceUpdatedAt": "2026-07-03",
+      "downloadUrl": "https://assets.heroi.cc/bulk-data/zh-Hans-2026-07-03-013658.json",
+      "bytes": 22920142,
+      "sourceRecords": 7151,
+      "accepted": 7151,
+      "missingCardNumbers": 0,
+      "duplicateVariantIds": 0,
+      "imageUrlsFound": 7151,
+      "sha256": "30b8ddd415d15c840742a5ff7a882ae081d1af566cc63d62c4dafd0aa5a16803"
+    }
+  },
+  "limitations": [
+    "Region is unknown unless independently verified; language does not prove distribution region.",
+    "Printing is classified using Heroicc parallel-id; physical release details are not independently verified.",
+    "Images are source URLs only and may be absent for some records.",
+    "Bulk data coverage is limited to languages exposed by the source catalogue."
+  ]
+}

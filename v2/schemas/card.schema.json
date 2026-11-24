@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DtcgApps canonical card",
+  "type": "object",
+  "required": [
+    "cardId",
+    "sourceRecordIds",
+    "names",
+    "source"
+  ],
+  "properties": {
+    "cardId": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+[-][A-Z0-9]+$"
+    },
+    "sourceRecordIds": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "names": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "cardType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "level": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "playCost": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "evolutionCost": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "dp": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "rarity": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "sourceUpdatedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

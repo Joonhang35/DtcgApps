@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-24T11:17:55.217Z",
+  "status": "passed-with-warnings",
+  "counts": {
+    "cards": 4287,
+    "variants": 26752,
+    "images": 26752
+  },
+  "errorCount": 0,
+  "warningCount": 1,
+  "errors": [],
+  "warnings": [
+    "26752 variants have unverified region"
+  ]
+}
